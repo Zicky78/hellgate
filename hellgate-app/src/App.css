@@ -1,0 +1,32 @@
+body {
+	color: white;
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.font {
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.imageContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.columnContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.parent {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	height: 100vh;
+}
+
+

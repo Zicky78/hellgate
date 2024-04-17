@@ -1,0 +1,12 @@
+.Image {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ffffff;
+}
+
+.container {
+	width: 450px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}

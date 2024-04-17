@@ -1,0 +1,27 @@
+.img {
+    width: 50%;
+    height: 50%;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    /* img cover */
+    object-fit: cover;
+    /* img center */
+    object-position: center;
+
+
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.hero {
+    margin: 2em 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.align-self-right {
+    align-self: flex-end;
+}
